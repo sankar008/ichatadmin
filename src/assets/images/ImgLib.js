@@ -9,6 +9,8 @@ export default HomeBg
 export const logo = require('./logo.png')
 export const logoLight = require('./logo-light.png')
 export const logoChild = require('./iChat-kids.png')
+
+export const loginBg = require('./bg-pattern.svg')
 /* 
 export const bgHome = require('./homeBanner-bg.jpg')
 export const bgHomeTransparent = require('./homeBanner-bg.png')

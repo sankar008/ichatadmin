@@ -1,2 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
 @import './assets/scss/app-saas.scss';
+
+
+.authentication-bg {
+    background-image: $auth-bg-pattern-img;
+    background-size: cover;
+    background-position: center;
+
+    .account-pages {
+        align-items: center;
+        display: flex;
+        min-height: 100vh;
+    }
+}

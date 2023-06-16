@@ -14,7 +14,9 @@ const Login = () => {
     let [showPassword, setShowPassword] = useState(true)
   return (
     <>
-    <div className="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5">
+    <div className="authentication-bg position-relative">
+        <div className='position-absolute start-0 end-0 start-0 bottom-0 w-100 h-100'></div>
+        <div className="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xxl-4 col-lg-5">
@@ -84,6 +86,7 @@ const Login = () => {
         <footer className="footer footer-alt">
             2018 - {year} All rights reserved by iCHAT
         </footer>
+    </div>
     </>
   )
 }
