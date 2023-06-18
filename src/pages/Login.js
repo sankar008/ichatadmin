@@ -15,12 +15,22 @@ const Login = () => {
   return (
     <>
     <div className="authentication-bg position-relative">
-        <div className='position-absolute start-0 end-0 start-0 bottom-0 w-100 h-100'></div>
+        <div className='position-absolute start-0 end-0 start-0 bottom-0 w-100 h-100'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 800 800">
+                <g fill-opacity="0.22" style={{"--ct-primary-rgb": "114,124,245"}}>
+                    <circle style={{"fill": "rgba(var(--ct-primary-rgb), 0.1)"}} cx="400" cy="400" r="600"></circle>
+                    <circle style={{"fill": "rgba(var(--ct-primary-rgb), 0.2)"}} cx="400" cy="400" r="500"></circle>
+                    <circle style={{"fill": "rgba(var(--ct-primary-rgb), 0.3)"}} cx="400" cy="400" r="300"></circle>
+                    <circle style={{"fill": "rgba(var(--ct-primary-rgb), 0.4)"}} cx="400" cy="400" r="200"></circle>
+                    <circle style={{"fill": "rgba(var(--ct-primary-rgb), 0.5)"}} cx="400" cy="400" r="100"></circle>
+                </g>
+            </svg>
+        </div>
         <div className="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-xxl-4 col-lg-5">
-                        <div className="card">
+                        <div className="card text-bg-dark">
                             <div className="card-header py-2 text-center bg-primary">
                                 <Link to="/">
                                     <span><img src={ imgLogin.logoLight } alt="logo" height="80" /></span>
